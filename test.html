@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Image and Text Table</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      background-color: #333; /* Dark background color */
+      color: #fff; /* Text color */
+    }
+    table {
+      border-collapse: collapse;
+      background-color: #444; /* Darker background color for the table */
+      color: #fff; /* Text color inside the table cells */
+      border: 1px solid rgba(255, 255, 255, 0.5); /* Semi-transparent white border */
+    }
+    td {
+      padding: 10px;
+      text-align: left; /* Set the text alignment to left */
+    }
+    p {
+      margin: 5px 0; /* Adjust the margin to control spacing between lines */
+      font-size: 14px; /* Adjust the font size as needed */
+    }
+    img {
+      max-width: 300px; /* Adjust the width as needed */
+      max-height: 400px; /* Adjust the height as needed */
+      display: block; /* Remove extra space below the images */
+      margin: 0 auto; /* Center the images horizontally in each cell */
+    }
+    .image-container {
+      text-align: center; /* Center the content within the div */
+    }
+  </style>
+</head>
+<body>
+  <h1>Image and Text Table</h1>
+  <table>
+    <tbody>
+      <!-- Row 1 -->
+      <tr>
+        <td>
+          <div class="image-container">
+            <img src="image1.jpg" alt="Image 1">
+          </div>
+          <div>
+            <p>Text line 1 for Image 1</p>
+            <p>Text line 2 for Image 1</p>
+          </div>
+        </td>
+        <td>
+          <div class="image-container">
+            <img src="image2.jpg" alt="Image 2">
+          </div>
+          <div>
+            <p>Text line 1 for Image 2</p>
+            <p>Text line 2 for Image 2</p>
+          </div>
+        </td>
+        <!-- Add more cells here for the first row -->
+      </tr>
+      <!-- Add more rows here for a total of 5 rows -->
+      <!-- Row 2 -->
+      <tr>
+        <td>
+          <div class="image-container">
+            <img src="image3.jpg" alt="Image 3">
+          </div>
+          <div>
+            <p>Text line 1 for Image 3</p>
+            <p>Text line 2 for Image 3</p>
+          </div>
+        </td>
+        <td>
+          <div class="image-container">
+            <img src="image4.jpg" alt="Image 4">
+          </div>
+          <div>
+            <p>Text line 1 for Image 4</p>
+            <p>Text line 2 for Image 4</p>
+          </div>
+        </td>
+        <!-- Add more cells here for the second row -->
+      </tr>
+      <!-- Continue adding rows until you have 5 rows -->
+    </tbody>
+  </table>
+</body>
+</html>
