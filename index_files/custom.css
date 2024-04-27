@@ -1,0 +1,79 @@
+﻿/*select2*/
+.select2-container--default .select2-selection--single .select2-selection__clear {
+    display: none;
+}
+
+.sidebar-contact .select2-container .select2-selection--single .select2-selection__rendered {
+    background-color: #F5F5F5;
+}
+
+/*validate*/
+.form-control.form-control.error, .select2 span.error {
+    border: 1px solid #F3262D;
+}
+
+/*tin tức*/
+.post-review-item .review-actions .dislike {
+    padding-left: 28px;
+    background-position: left center;
+    background-repeat: no-repeat;
+    color: #1D93E3;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+    .post-review-item .review-actions .dislike:after {
+        content: '';
+        width: 4px;
+        height: 4px;
+        display: inline-block;
+        border-radius: 100%;
+        background: #534E56;
+        margin: 0 8px;
+        vertical-align: middle;
+    }
+
+.review-actions .reply {
+    cursor: pointer
+}
+
+.child-comment {
+    padding-left: 64px;
+    margin-top: 10px;
+}
+
+    .child-comment .review-author-name {
+        margin-top: 10px;
+    }
+
+.profile-usertitle-avata {
+    cursor: pointer;
+}
+
+/*video*/
+.videos .video-item-title a {
+    color: #fff
+}
+
+
+/*zalo share btn*/
+.zalo-share-button iframe {
+    max-width: none;
+}
+
+/*banner*/
+.bannerzone iframe {
+    display: block;
+}
+
+.bannerzone .modal .modal-dialog {
+    width: auto;
+}
+.related-news{
+    display:block;
+}
